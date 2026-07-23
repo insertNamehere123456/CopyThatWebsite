@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+}
+img {
+    width: 50px;
+}
+
+div{
+ font-family: Helvetica;; 	
+ background-color: #272D33;; 	
+ color: white;; 	
+ font-size: 32px;; 	
+ padding: 10px;; 
+ margin-left: 1%;
+}
+
+nav {
+ background-color: #272D33;; 
+ padding: 10px;; 
+ display: flex;
+ justify-content: flex-start;
+
+}
+
+.section {
+    display:flex;
+    flex-direction: row;
+}
