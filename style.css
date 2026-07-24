@@ -1,28 +1,88 @@
-body {
-    background-color: black;
-}
-img {
-    width: 50px;
+html body {
+    margin: 0px;
+    padding: 0px;
 }
 
-div{
- font-family: Helvetica;; 	
- background-color: #272D33;; 	
- color: white;; 	
- font-size: 32px;; 	
- padding: 10px;; 
- margin-left: 1%;
+body {
+    background-color: #192330;
+    color: white;
+}
+
+#logo {
+    width: 200px;
+    height: auto;
+    /* margin: 50px; */
 }
 
 nav {
- background-color: #272D33;; 
- padding: 10px;; 
- display: flex;
- justify-content: flex-start;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Helvetica;	
+ 
 
 }
 
-.section {
-    display:flex;
-    flex-direction: row;
+.Main {
+    flex-direction: row; 
+    font-size: 20px; 	
+    font-weight: bold;
+    margin-left: 6%;
+    color: white;
+    text-decoration: none;
+}
+
+.Main:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
+#mainBox{
+    border: 5px, solid, #171d25; 
+    background-color: #171d25;
+    padding: 10px;
+}
+
+.category{
+    margin-left: 3%;
+}
+.category:hover{
+    text-decoration: underline;
+}
+
+#navigationBox{
+    border: 1px, solid, black;
+    background-color: #182535;
+    padding: px;
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+
+}
+
+#search {
+    border: 1px, solid, grey;
+    background-color: rgba(128, 128, 128, 0.4);
+    margin-left: 164%;
+}
+#searchLogo img {
+    justify-content: flex-end;
+    width: 32px;
+}
+
+h2{
+    font-family: Helvetica;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+#gameLogo{
+    display: flex;
+    justify-content: center ;
+}
+
+#saleLogo{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
 }
